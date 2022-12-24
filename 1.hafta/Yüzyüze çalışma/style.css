@@ -1,0 +1,81 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+width: 100%;
+height: 100%;
+background-color: antiquewhite;
+}
+.container{
+    padding: 10px;
+    
+}
+.liste{
+    margin-left: 30px;
+}
+.anasayfa{
+    color: blue;
+    font-size: 15px;
+    font-weight: 600;
+}
+.ekonomi{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+.siyaset{
+    color:purple;
+    font-size: 15px;
+    font-weight: 600;
+}
+.magazin{
+color: darkorange;
+font-size: 15px;
+    font-weight: 600;
+}
+.spor{
+    color:teal;
+font-size: 15px;
+    font-weight: 600;
+}
+.baslik{
+    margin-top: 30px;
+    width: 100%;
+    background-color: crimson;
+    padding: 5px;
+}
+.form{
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+    background-color:rgb(179, 236, 179);
+}
+.giris{
+    margin-top: 10px;
+}
+.label1{
+    background-color: blueviolet;
+}
+.label2{
+    background-color:hotpink;
+}
+.label3{
+    background-color:darkcyan;
+}
+.secim{
+    margin-top: 25px;
+}
+.araba{
+    width: 200px;
+}
+.oneri{
+  margin-top: 20px;
+}
+button{
+    margin-top: 5px;
+}
+.down{
+    margin-top: 15px;
+}
