@@ -7,8 +7,7 @@ export default class Users extends Component {
 
     componentDidMount() {
         setTimeout(() => {
-          console.log("Delayed for 1 second.");
-    
+          
           axios.get("https://jsonplaceholder.typicode.com/users").then(
             (result) => {
               this.setState({
@@ -43,10 +42,10 @@ export default class Users extends Component {
             <div>
         
            <ul>
-              {users.map(item => 
-                  <li key={item.id}>
+              {users.map(user => 
+                  <li key={user.id}>
       
-      {item.username} - {item.name}
+      {user.username} - {user.name}
                   </li>
                   )}
            </ul>
