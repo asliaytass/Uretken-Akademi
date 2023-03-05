@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family= Genos :ital,wght@1,300 & display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0 ;
+  padding: 0;
+font-family: 'Genos', sans-serif;
+background-color: black;
+color: white;
+
+}
+
+.content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:70px ;
+  color: white;
+}
+.search{
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
